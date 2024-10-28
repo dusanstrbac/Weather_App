@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        
+        <div class="WeatherBox">
+
+            <div class="Search">
+                <input type="search" id="citySearch" placeholder="Enter city name">
+                <button id="searchButton">Search</button>
+            </div>
+
+            <div class="Main">
+
+                <img id="weatherImage" src="weather-png-photo-hd-8.png" alt="weather-icon">
+
+                <div class="CityInfo">
+                    <h1 id="temp">26°C</h1>
+                    <h2 id="city">Belgrade</h2>
+                </div>
+
+                <div class="Information">
+                    
+                    <div class="Humidity">
+                        <img id="humidityImage" src="humidity-svgrepo-com.png" alt="humidity-image">
+                        <div class="Info">
+                            <h3>Humidity</h3>
+                            <p id="humidityLevel">50%</p>
+                        </div>
+                    </div>
+
+                    <div class="Wind">
+                        <img id="windImage" src="wind-svgrepo-com.png" alt="">
+                        <div class="Info">
+                            <h3>Wind speed</h3>
+                            <p id="windSpeed">24 km/h</p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>

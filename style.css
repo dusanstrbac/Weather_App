@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #024CAA;
+}
+
+.WeatherBox {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #EC8305;
+}
+
+.Search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 1px solid black;
+    height: 15%;
+}
+
+#citySearch {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#searchButton {
+    padding: 10px 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.Main {
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CityInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.CityInfo h1 {
+    font-size: 50px;
+}
+
+.CityInfo h2 {
+    font-size: 30px;
+}
+
+.Information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Humidity,
+.Wind {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.Humidity p,
+.Wind p {
+    font-size: 20px;
+}
+
+#weatherImage {
+    width: 150px;
+    height: 150px;
+}
+
+#humidityImage,
+#windImage {
+    width: 50px;
+    height: 50px;
+}
